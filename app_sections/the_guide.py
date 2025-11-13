@@ -39,9 +39,9 @@ def render():
         }
 
         .guide-photo {
-            width: 210px;
-            height: 210px;
-            border-radius: 999px;
+            width: 260px;             /* o 240/280, come ti piace */
+            height: auto;             /* mantiene le proporzioni originali */
+            border-radius: 24px;      /* angoli morbidi ma non tonda */
             object-fit: cover;
             box-shadow: 0 12px 32px rgba(0,0,0,0.18);
         }
@@ -92,19 +92,21 @@ def render():
         .guide-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 1.6rem;
-            margin-bottom: 1.5rem;
-            margin-top: 0.5rem;
+            gap: 2.2rem;              /* più spazio orizzontale e verticale tra le cards */
+            margin-bottom: 2.5rem;    /* più spazio dal fondo */
+            margin-top: 1rem;         /* più spazio dall’alto */
         }
 
         .guide-chip {
             background: rgba(255,255,255,0.95);
             border-radius: 18px;
-            padding: 1rem 1.1rem;
+            padding: 1.2rem 1.3rem;   /* un filo più grande e “arioso” */
             box-shadow: 0 10px 26px rgba(0,0,0,0.08);
             font-size: 0.95rem;
             color: #000000;
+            margin-bottom: 0.4rem;    /* ulteriore distacco interno tra una card e l’altra */
         }
+
 
         .guide-chip-label {
             font-weight: 600;
@@ -159,7 +161,7 @@ def render():
                 <div>
                     <div class="guide-info-title">The Guide: CECILIA</div>
                     <div class="guide-info-subtitle">
-                        24 years old • Italian • currently figuring it all out
+                        Italian girl temporarily lost in the US
                     </div>
                     <div class="guide-info-table">
                         <div class="guide-info-row">
@@ -333,6 +335,7 @@ def render():
     """, unsafe_allow_html=True)
 
     # What I miss – Sister & pizza (two photos)
+  # What I miss – Sister & pizza (two photos)
     st.markdown(f"""
         <div class="guide-chip">
             <div class="guide-chip-label">What I miss</div>
@@ -341,7 +344,8 @@ def render():
                 <img src="data:image/jpeg;base64,{pizza_b64}" class="guide-chip-img-half" />
             </div>
             <div>
-                My sister and real Italian pizza – two things that make every place feel a bit more like home.
+                <b>My sister:</b> my favorite person on this planet. She’s brilliant, knows what she wants from life, always has my back, and basically helped raise me.<br><br>
+                <b>Pizza:</b> I miss eating it straight from the box, still burning hot, after class in the university garden with a big spritz in my hand.
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -374,6 +378,8 @@ def render():
 
     # Little closing line
     st.markdown(
-        "<br><i>Work in progress: me, my life, and this whole ‘future’ thing. But at least the guide is cute.</i>",
+        "<br><span style='color:#000000; font-style:italic;'>"
+        "Work in progress: me, my life, and this whole ‘future’ thing. But at least they told me the guide is cute."
+        "</span>",
         unsafe_allow_html=True
     )
