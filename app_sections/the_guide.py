@@ -243,12 +243,30 @@ def render():
         </div>
     """, unsafe_allow_html=True)
 
+        # Favorite song – Bella Storia
+    st.markdown("""
+        <div class="guide-chip">
+            <div class="guide-chip-label">Favorite song</div>
+            <div><i>Bella Storia - Fedez</i></div>
+            <div style="margin-top:0.3rem; font-size:0.9rem;">
+                A love song about wanting to try, to make things work, and to build a beautiful story together.<br>
+                Because if there’s one thing I might love even more than sleeping, it’s love itself.
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+
+    # Favorite food (with lasagna photo)
     # Favorite food (with lasagna photo)
     st.markdown(f"""
         <div class="guide-chip">
             <div class="guide-chip-label">Favorite food</div>
             <img src="data:image/jpeg;base64,{lasagna_b64}" class="guide-chip-img" />
-            <div>My mom’s lasagna</div>
+            <div>
+                My mom’s lasagna – even though anything she cooks is perfect.<br>
+                She always says cooking is a form of love, because it takes time,
+                patience, and focus... but when it’s for the people we love, it just
+                comes naturally.
+            </div>
         </div>
     """, unsafe_allow_html=True)
 
@@ -262,13 +280,17 @@ def render():
     """, unsafe_allow_html=True)
 
     # Where I'm from (Suzzara)
+    # Where I'm from (Suzzara)
     st.markdown(f"""
         <div class="guide-chip">
             <div class="guide-chip-label">Where I’m from</div>
             <img src="data:image/jpeg;base64,{suzzara_b64}" class="guide-chip-img" />
             <div>
                 Suzzara, in the province of Mantua – a small town famous for basically nothing,<br>
-                but it’s home.
+                but it’s home. I love it because everything feels calm and slow; you can breathe<br>
+                (even if the air is technically kind of polluted, lol), run along the Po river,<br>
+                and watch sunsets from the levee. When I’m there, I really embrace the idea of<br>
+                the Italian <i>“vita lenta”</i>.
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -280,7 +302,7 @@ def render():
             <img src="data:image/jpeg;base64,{milan_b64}" class="guide-chip-img" />
             <div>
                 Milan: big city, a thousand opportunities, chaotic, and always moving fast.<br>
-                I had fun, met so many beautiful people, and built friendships I’ll carry for life –<br>
+                I had fun, met so many beautiful people, and built friendships I’ll carry for life;<br>
                 but it also drained me.
             </div>
         </div>
@@ -316,7 +338,7 @@ def render():
             <div class="guide-chip-label">Friends</div>
             <img src="data:image/jpeg;base64,{friends_b64}" class="guide-chip-img" />
             <div>
-                I would do absolutely anything for my friends –<br>
+                I would do absolutely anything for my friends, <br>
                 and for the people I love in general.
             </div>
         </div>
@@ -355,8 +377,7 @@ def render():
         <div class="guide-chip">
             <div class="guide-chip-label">Current status</div>
             <div>
-                Confused but happy, unsure about the future,<br>
-                and absolutely without a well-defined plan (yet).
+                Confused but happy, unsure about the future, and absolutely without a well-defined plan (yet). MOOD: CARPE DIEM!
             </div>
         </div>
     """, unsafe_allow_html=True)
