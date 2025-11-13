@@ -302,7 +302,7 @@ def render():
             <img src="data:image/jpeg;base64,{milan_b64}" class="guide-chip-img" />
             <div>
                 Milan: big city, a thousand opportunities, chaotic, and always moving fast.<br>
-                I had fun, met so many beautiful people, and built friendships I’ll carry for life;<br>
+                I had fun, met so many beautiful people, and built friendships I’ll carry for life;
                 but it also drained me.
             </div>
         </div>
@@ -389,7 +389,7 @@ def render():
             <div>
                 Road-tripping across the US, having fun,<br>
                 and making the cutest, kindest, sweetest blonde girl very, very happy.<br><br>
-                Final goal (for now): kidnapping said Nebraska girl<br>
+                Final goal (for now): kidnapping said Nebraska girl
                 with a one-way ticket to Italy (jk… but also not really).
             </div>
         </div>
