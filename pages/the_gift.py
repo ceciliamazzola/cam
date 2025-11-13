@@ -37,7 +37,7 @@ def render():
     <div class="hero-container">
         <div class="hero-card">
             <div class="hero-badge">
-                the gift
+                Limited edition offer
             </div>
             <div class="hero-title">
                 THE GIFT 🎁
@@ -49,10 +49,10 @@ def render():
     Think red rocks and desert skies, or ocean waves and city skylines,<br>
     all with good Italian music in the background (don’t worry, Kali Uchis will join us too),<br>
     too many photos, good food, cuddles, and those embarrassing moments<br>
-    where I can’t quite explain myself and just mumble nonsense in English. 💚<br><br>
+    where I can’t quite explain myself and just mumble nonsense in English.<br><br>
     This is your birthday gift: a weekend away together,<br>
     planned around whatever makes you feel most alive and at peace.<br><br>
-    No pressure, no rush – just you, me.
+    No pressure, no rush: just you and me.
         </div>
         </div>
     </div>
@@ -172,7 +172,7 @@ def render():
 
     st.markdown(
         "<br><span class='final-text-black'>"
-        "The final destination will simply depend on whatever makes you smile the most in that moment. 💚"
+        "The final destination will simply depend on whatever makes you smile the most"
         "</span>",
         unsafe_allow_html=True
     )

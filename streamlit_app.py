@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
 import os
-from pages import the_gift  # ✅ importa il modulo the_gift (senza numeri, senza .py)
+from pages import the_gift, the_guide
 
 # Configurazione pagina
 st.set_page_config(
@@ -22,8 +22,8 @@ image_base64 = get_base64_image(image_path)
 # ---- SIDEBAR: MENU A TENDINA ----
 st.sidebar.markdown("### 🤍 Cam's B. Day")
 page = st.sidebar.selectbox(
-    "Navigate",
-    ["Home", "The Gift"],
+    "Navigate the menu:",
+    ["Home", "The Gift", "The Guide"],
 )
 
 # ---- CSS GLOBALE ----
@@ -189,3 +189,5 @@ if page == "Home":
     render_home()
 elif page == "The Gift":
     the_gift.render()
+elif page == "The Guide":
+    the_guide.render()
