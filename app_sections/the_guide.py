@@ -388,7 +388,7 @@ def render():
             <div class="guide-chip-label">What my heart cares about right now</div>
             <div>
                 Road-tripping across the US, having fun,<br>
-                and making one Nebraska girl very, very happy.<br><br>
+                and making the cutest, kindest, sweetest blonde girl very, very happy.<br><br>
                 Final goal (for now): kidnapping said Nebraska girl<br>
                 with a one-way ticket to Italy (jk… but also not really).
             </div>
