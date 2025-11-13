@@ -364,7 +364,7 @@ def render():
                 <img src="data:image/jpeg;base64,{suzzara5_b64}" class="guide-chip-img-third" />
             </div>
             <div>
-                Suzzara, in the province of Mantua – a small town famous for basically nothing,<br>
+                Suzzara, in the province of Mantua; a small town famous for basically nothing,<br>
                 but it’s home. I love it because everything feels calm and slow; you can breathe<br>
                 (even if the air is technically kind of polluted, lol), run along the Po river,<br>
                 and watch sunsets from the levee. When I’m there, I really embrace the idea of<br>
