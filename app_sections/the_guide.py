@@ -389,8 +389,7 @@ def render():
             <div>
                 Road-tripping across the US, having fun,<br>
                 and making the cutest, kindest, sweetest blonde girl very, very happy.<br><br>
-                Final goal (for now): kidnapping said Nebraska girl
-                with a one-way ticket to Italy (jk… but also not really).
+                Final goal (for now): kidnapping said Nebraska girl with a one-way ticket to Italy (jk… but also not really).
             </div>
         </div>
     """, unsafe_allow_html=True)
