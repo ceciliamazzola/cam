@@ -149,7 +149,7 @@ def render():
                 <img src="data:image/jpeg;base64,{img_nevada}" class="dest-img" />
                 <div class="dest-title">Nevada</div>
                 <div class="dest-text dest-text-black">
-                    Desert highways, quiet skies, maybe a touch of Vegas. 🎲
+                    Desert highways and maybe a touch of Vegas. 🎲
                 </div>
             </div>
             """,
