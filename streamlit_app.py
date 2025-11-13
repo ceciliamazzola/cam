@@ -188,7 +188,7 @@ def render_home():
     # Citazione sotto la card, fuori dal box bianco
     st.markdown("""
     <p style="margin-top:1.5rem; font-style:italic; text-align:center; color:#000000;">
-        Amor, ch’a nullo amato amar perdona. - Dante Alighieri (Inferno, V)
+        Amor, ch’a nullo amato amar perdona.\n- Dante Alighieri (Inferno, V)
     </p>
     """, unsafe_allow_html=True)
 
