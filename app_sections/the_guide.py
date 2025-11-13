@@ -377,7 +377,7 @@ def render():
         <div class="guide-chip">
             <div class="guide-chip-label">Current status</div>
             <div>
-                Confused but happy, unsure about the future, and absolutely without a well-defined plan (yet). MOOD: CARPE DIEM!
+                Confused but happy, plan-free but hopeful, a little scared of the future and incredibly excited for whatever comes. MOOD: Carpe diem.
             </div>
         </div>
     """, unsafe_allow_html=True)
