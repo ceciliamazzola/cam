@@ -177,7 +177,7 @@ def render_home():
                 HAPPY BIRTHDAY CAM!
             </div>
             <div class="hero-subtitle">
-                May your 27th year be as stunning as the sunsets you've shared with me
+                May your 27th year be as stunning as the sunsets you have shared with me
             </div>
             <img src="data:image/png;base64,{image_base64}" class="hero-photo" />
         </div>
