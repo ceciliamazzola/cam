@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
 import os
-from pages import the_gift, the_guide
+from app_sections import the_gift, the_guide
 
 # Configurazione pagina
 st.set_page_config(
