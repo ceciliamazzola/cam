@@ -120,6 +120,15 @@ def render():
             max-height: 160px;
         }
 
+        .guide-chip-img-half {
+            width: 49%;
+            border-radius: 14px;
+            margin-bottom: 0.5rem;
+            object-fit: cover;
+            max-height: 140px;
+            display: inline-block;
+        }
+
         @media (max-width: 700px) {
             .guide-card {
                 padding: 2rem 1.5rem;
@@ -202,6 +211,9 @@ def render():
     milan_b64   = _get_base64_image(os.path.join("images", "milan.jpg"))
     polimi_b64  = _get_base64_image(os.path.join("images", "polimi.jpg"))
     sleep_b64   = _get_base64_image(os.path.join("images", "sleep.jpg"))
+    autumn_b64  = _get_base64_image(os.path.join("images", "autumn.jpg"))
+    sister_b64  = _get_base64_image(os.path.join("images", "sister.jpg"))
+    pizza_b64   = _get_base64_image(os.path.join("images", "pizza.jpg"))
 
     # ---------- Small info cards ----------
     st.markdown('<div class="guide-grid">', unsafe_allow_html=True)
@@ -238,10 +250,11 @@ def render():
         </div>
     """, unsafe_allow_html=True)
 
-    # Favorite season
-    st.markdown("""
+    # Favorite season (with autumn photo)
+    st.markdown(f"""
         <div class="guide-chip">
             <div class="guide-chip-label">Favorite season</div>
+            <img src="data:image/jpeg;base64,{autumn_b64}" class="guide-chip-img" />
             <div>Autumn. Always.</div>
         </div>
     """, unsafe_allow_html=True)
@@ -315,6 +328,20 @@ def render():
             <div>
                 Sleeping. My superpower: being able to fall asleep anywhere, in any situation –<br>
                 on the floor, in the car, on a plane, on a chair, on a train…
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+
+    # What I miss – Sister & pizza (two photos)
+    st.markdown(f"""
+        <div class="guide-chip">
+            <div class="guide-chip-label">What I miss</div>
+            <div>
+                <img src="data:image/jpeg;base64,{sister_b64}" class="guide-chip-img-half" />
+                <img src="data:image/jpeg;base64,{pizza_b64}" class="guide-chip-img-half" />
+            </div>
+            <div>
+                My sister and real Italian pizza – two things that make every place feel a bit more like home.
             </div>
         </div>
     """, unsafe_allow_html=True)
