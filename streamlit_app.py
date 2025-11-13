@@ -184,6 +184,14 @@ def render_home():
     </div>
     """, unsafe_allow_html=True)
 
+
+    # Citazione sotto la card, fuori dal box bianco
+    st.markdown("""
+    <p style="margin-top:1.5rem; font-style:italic; text-align:center; color:#000000;">
+        Amor, ch’a nullo amato amar perdona. - Dante Alighieri (Inferno, V)
+    </p>
+    """, unsafe_allow_html=True)
+
 # ---- LOGICA PAGINE ----
 if page == "Home":
     render_home()
