@@ -64,9 +64,12 @@ def render():
     with col2:
         if st.button("I'm in 💚"):
             st.session_state["show_gift_details"] = True
+            st.balloons()  # 🎈
 
     if not st.session_state["show_gift_details"]:
         return
+    
+    
 
     # Messaggio nero dopo il click
     st.markdown(
