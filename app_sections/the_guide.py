@@ -4,8 +4,12 @@ import os
 import base64
 
 def _get_base64_image(path: str) -> str:
-    with open(path, "rb") as img:
-        return base64.b64encode(img.read()).decode()
+    try:
+        with open(path, "rb") as img:
+            return base64.b64encode(img.read()).decode()
+    except FileNotFoundError:
+        st.warning(f"Image not found: {path}")
+        return ""
 
 def render():
     # CSS specific for this page
