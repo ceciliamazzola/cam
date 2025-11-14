@@ -506,3 +506,4 @@ def render():
         "</span>",
         unsafe_allow_html=True
     )
+
